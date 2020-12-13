@@ -1,0 +1,26 @@
+cabal-version: 3.0
+
+name: iso3166
+version: 0.1.0.0
+
+common common
+  build-depends:
+      base >= 4.14 && < 4.15
+    , text
+  default-language:
+      Haskell2010
+  ghc-options:
+      -Wall
+
+library
+  import:
+      common
+  hs-source-dirs:
+      src
+  exposed-modules:
+      Data.Country.Code
+      Data.Country.Code.CA
+      Data.Country.Code.CO
+      Data.Country.Code.US
+      Data.Country.Subdivision.Category
+      Data.Language.Code
