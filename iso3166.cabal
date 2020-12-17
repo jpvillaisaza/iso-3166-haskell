@@ -19,6 +19,7 @@ library
       src
   exposed-modules:
       Data.Country.Code
+      Data.Country.Code2
       Data.Country.Code.CA
       Data.Country.Code.CO
       Data.Country.Code.US
